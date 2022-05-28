@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+<style>
+    .navbar {
+            z-index: 1;
+            position: relative;
+        }
+.dropbtn {
+  font-family: "Sen", sans-serif;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000000;}
+
+.change {
+            color: white;
+            font-style: normal;
+            text-decoration: none;
+        }
+</style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">MoviExpertise</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a class="change" href="index.html">Home</a></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Movies</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                          <a href="comedy.html">Comedy</a></a>
+                          <a href="action.html">Action</a></a>
+                          <a href="adventure.html">Adventure</a></a>
+                          <a href="romance.html">Romance</a></a>
+                          <a href="horror.html">Horror</a></a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item">
+                        <div class="dropdown">
+                        <button class="dropbtn">Series</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item">Popular</li>
+
+                </ul>
+            </div>
+
+            <div class="profile-container">
+                <div class="profile-text-container">
+                    <li class="menu-list-item">
+                        <div class="dropdown">
+                        <button class="dropbtn">Users</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                              <a href="#">Pavan</a>
+                            <a href="#">Sasidhar</a>
+                            <a href="#">Nish</a>
+                            <a href="#">Ramyaa</a>
+                            <a href="#">Kids</a>
+                        </div>
+                    </li>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="search.html"><i class="left-menu-icon fas fa-search"></i></a>
+        <a href="index.html"><i class="left-menu-icon fas fa-home"></i></a>
+        <a href="users.html"><i class="left-menu-icon fas fa-users"></i></a>
+        <a href="wish.html"><i class="left-menu-icon fas fa-bookmark"></i></a>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <a href="count.html"><i class="left-menu-icon fas fa-hourglass-start"></i></a>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('12.jpg');">
+                <img class="featured-title" src="f1.jpg" alt="">
+                <p class="featured-desc">Reunited in their hometown for their father's funeral, two brothers meet a peculiar woman who shares secrets about their family.</p>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="1.jpg" alt="">
+                            <span class="movie-list-item-title">Don't Look Up</span>
+                            <p class="movie-list-item-desc">Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="2.jpeg" alt="">
+                            <span class="movie-list-item-title">Cheaper By The Dozen</span>
+                            <p class="movie-list-item-desc">Two parents attempt to navigate their hectic home life as they juggle raising ten children from several different marriages and starting to franchise their breakfast food based restaurant.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="3.jpg" alt="">
+                            <span class="movie-list-item-title">Red Notice</span>
+                            <p class="movie-list-item-desc">In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="4.jpeg" alt="">
+                            <span class="movie-list-item-title">Encanto</span>
+                            <p class="movie-list-item-desc">Encanto tells the tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="5.jpg" alt="">
+                            <span class="movie-list-item-title">Free Guy</span>
+                            <p class="movie-list-item-desc">A bank teller (Ryan Reynolds) discovers he is actually a background player in an open-world video game, and decides to become the hero of his own story.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="6.jpg" alt="">
+                            <span class="movie-list-item-title">Boss Baby 2</span>
+                            <p class="movie-list-item-desc">The two Templeton brothers, Tim and Ted, learn that Tim's daughter, Tina, is a Boss Baby just like her uncle, Ted. She then enlists their help in thwarting the plans of an evil principal.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="7.jpg" alt="">
+                            <span class="movie-list-item-title">Sweet and Sour</span>
+                            <p class="movie-list-item-desc">Faced with real-world opportunities and challenges, a couple endures the highs and lows of trying to make a long-distance relationship survive.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="8.jpg" alt="">
+                            <span class="movie-list-item-title">Army Of Thieves</span>
+                            <p class="movie-list-item-desc">In this prequel to "Army of the Dead," a mysterious woman recruits bank teller Dieter to assist in a heist of impossible-to-crack safes across Europe.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="9.jpg" alt="">
+                            <span class="movie-list-item-title">Ice Age</span>
+                            <p class="movie-list-item-desc">Manny the mammoth, Sid the loquacious sloth, and Diego the sabre-toothed tiger go on a comical quest to return a human baby back to his father, across a world on the brink of an ice age.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="10.jpg" alt="">
+                            <span class="movie-list-item-title">Hitman's Wife's Bodyguard</span>
+                            <p class="movie-list-item-desc">Hitman Darius Kincaid's wife Sonia seeks assistance from their ex-bodyguard, Michael Bryce, to save Darius from mobsters. After rescuing him, the trio gets involved in saving Europe from a madman</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="11.jpg" alt="">
+                            <span class="movie-list-item-title">Hotel Transylvania</span>
+                            <p class="movie-list-item-desc">Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
