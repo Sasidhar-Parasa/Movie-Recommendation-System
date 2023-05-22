@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+    <style>
+        .navbar {
+            z-index: 1;
+            position: relative;
+        }
+        .dropbtn {
+          font-family: "Sen", sans-serif;
+          background-color: #000000;
+          color: white;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #000000;}
+
+        .change {
+            color: white;
+            font-style: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">flakes</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a class="change" href="index.html">Home</a></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Movies</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="comedy.html">Comedy</a></a>
+                            <a href="action.html">Action</a></a>
+                            <a href="adventure.html">Adventure</a></a>
+                            <a href="romance.html">Romance</a></a>
+                            <a href="horror.html">Horror</a></a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Series</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item">Popular</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">HORROR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h1.png" alt="">
+                            <span class="movie-list-item-title">The Unholy</span>
+                            <p class="movie-list-item-desc">Alice, a girl with hearing impairment, is able to hear, speak and even heal the ill after having visions of the Virgin Mary. But when a journalist probes into the matter, he unearths a conspiracy.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h2.jpg" alt="">
+                            <span class="movie-list-item-title">Things heard And seen</span>
+                            <p class="movie-list-item-desc">After moving to a small town with her husband, a young artist begins to suspect that their home harbours some dark secrets.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h3.jpg" alt="">
+                            <span class="movie-list-item-title">The Grudge</span>
+                            <p class="movie-list-item-desc">Muldoon, a detective and single mother, investigates a murder in a suburban neighbourhood. Soon, she realises that the house in which the incident occurred is cursed by an evil force.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h4.jpg" alt="">
+                            <span class="movie-list-item-title">Eerie</span>
+                            <p class="movie-list-item-desc">A guidance counsellor's special talents help her unravel the mystery behind the unexpected and gruesome death of a student at a Catholic school for girls.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h6.jpg" alt="">
+                            <span class="movie-list-item-title">Doctor Sleep</span>
+                            <p class="movie-list-item-desc">While Danny Torrance struggles to overcome his traumatic past, he finds a little girl sharing his gift of the shine. Thereafter, he goes on a quest to protect her from the bloodthirsty True Knot.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h7.jpg" alt="">
+                            <span class="movie-list-item-title">The ring</span>
+                            <p class="movie-list-item-desc">Julia fights to protect her boyfriend Holt, who watches a cursed video that kills the viewer in seven days. She finds out that there is a hidden message inside the video, which might be the solution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="h5.jpg" alt="">
+                            <span class="movie-list-item-title">SCOOB!</span>
+                            <p class="movie-list-item-desc">Shaggy and Scooby learn that Dick Dastardly, a villain, is out to capture Scooby. With the help of masked superhero Blue Falcon, the Mystery Inc gang sets out to thwart the supercriminal's evil plans.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

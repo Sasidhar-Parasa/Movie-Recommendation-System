@@ -1,0 +1,178 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+    <style>
+        .navbar {
+            z-index: 1;
+            position: relative;
+        }
+        .dropbtn {
+          font-family: "Sen", sans-serif;
+          background-color: #000000;
+          color: white;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #000000;}
+
+        .change {
+            color: white;
+            font-style: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">flakes</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a class="change" href="index.html">Home</a></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Movies</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="comedy.html">Comedy</a></a>
+                            <a href="action.html">Action</a></a>
+                            <a href="adventure.html">Adventure</a></a>
+                            <a href="romance.html">Romance</a></a>
+                            <a href="horror.html">Horror</a></a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Series</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item">Popular</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">ACTION</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a1.jpg" alt="">
+                            <span class="movie-list-item-title">The Matrix Resurrections</span>
+                            <p class="movie-list-item-desc">Thomas Anderson's seemingly ordinary life ends when he accepts Morpheus's offer, only to wake up to a new, more secure and much more dangerous Matrix.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a2.jpg" alt="">
+                            <span class="movie-list-item-title">Shang-Chi</span>
+                            <p class="movie-list-item-desc">Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="3.jpg" alt="">
+                            <span class="movie-list-item-title">Red Notice</span>
+                            <p class="movie-list-item-desc">In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a4.jpg" alt="">
+                            <span class="movie-list-item-title">Jungle Cruise</span>
+                            <p class="movie-list-item-desc">Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his ramshackle boat. Together, they search for an ancient tree that holds the power to heal -- a discovery that will change the future of medicine.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="5.jpg" alt="">
+                            <span class="movie-list-item-title">Free Guy</span>
+                            <p class="movie-list-item-desc">A bank teller (Ryan Reynolds) discovers he is actually a background player in an open-world video game, and decides to become the hero of his own story.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a6.jpg" alt="">
+                            <span class="movie-list-item-title">Black Panther</span>
+                            <p class="movie-list-item-desc">After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a7.jpg" alt="">
+                            <span class="movie-list-item-title">No Time To Die</span>
+                            <p class="movie-list-item-desc">James Bond is enjoying a tranquil life in Jamaica after leaving active service. However, his peace is short-lived as his old CIA friend, Felix Leiter, shows up and asks for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond on the trail…</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="10.jpg" alt="">
+                            <span class="movie-list-item-title">Hitman's Wife's Bodyguard</span>
+                            <p class="movie-list-item-desc">Hitman Darius Kincaid's wife Sonia seeks assistance from their ex-bodyguard, Michael Bryce, to save Darius from mobsters. After rescuing him, the trio gets involved in saving Europe from a madman</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a8.jpg" alt="">
+                            <span class="movie-list-item-title">Resident Evil</span>
+                            <p class="movie-list-item-desc">Resident Evil is a science fiction action-horror film series based on the Japanese video game franchise of the same name by Capcom.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="a9.jpg" alt="">
+                            <span class="movie-list-item-title">Wonder Woman(1984)</span>
+                            <p class="movie-list-item-desc">Wonder Woman finds herself battling two opponents, Maxwell Lord, a shrewd entrepreneur, and Barbara Minerva, a friend-turned-foe. Meanwhile, she also ends up crossing paths with her love interest.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+    <style>
+        .navbar {
+            z-index: 1;
+            position: relative;
+        }
+        .dropbtn {
+          font-family: "Sen", sans-serif;
+          background-color: #000000;
+          color: white;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #000000;}
+
+        .change {
+            color: white;
+            font-style: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">flakes</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a class="change" href="index.html">Home</a></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Movies</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="comedy.html">Comedy</a></a>
+                            <a href="action.html">Action</a></a>
+                            <a href="adventure.html">Adventure</a></a>
+                            <a href="romance.html">Romance</a></a>
+                            <a href="horror.html">Horror</a></a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item"><div class="dropdown">
+                        <button class="dropbtn">Series</button>
+                        <i class="fas fa-caret-down"></i>
+                        <div class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div></li>
+                    <li class="menu-list-item">Popular</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">ROMANCE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r1.jpg" alt="">
+                            <span class="movie-list-item-title">Shiddat</span>
+                            <p class="movie-list-item-desc">After falling madly in love, a man tries to convey his feelings. However, the object of his affections is betrothed to another and asks him to prove his love.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r2.jpg" alt="">
+                            <span class="movie-list-item-title">Most eligible bachelor</span>
+                            <p class="movie-list-item-desc">Harsha's mother sets him up to meet with 20 potential brides but he falls for Vibha, an outspoken lady. But his unrequited love is put to the test when she challenges his perspective about marriage.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r3.jpg" alt="">
+                            <span class="movie-list-item-title">Atrangi re</span>
+                            <p class="movie-list-item-desc">Chaos ensues when a runaway woman gets forcefully married to a man who is already engaged. The situation turns murkier when the girl's boyfriend enters their lives.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r4.jpg" alt="">
+                            <span class="movie-list-item-title">Paagal</span>
+                            <p class="movie-list-item-desc">After his mother's death, Prem, a young man, searches for love in every woman he comes across. However, when he finds true love in Theera, they face several challenges in their quest to unite.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r5.jpg" alt="">
+                            <span class="movie-list-item-title">Sanam Re</span>
+                            <p class="movie-list-item-desc">Akash and Shruti, two classmates in love, are separated due to unforeseen circumstances. Years later, they get a second chance at their relationship when they meet in Canada.</p>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r6.jpg" alt="">
+                            <span class="movie-list-item-title">Hey Sinamika</span>
+                            <p class="movie-list-item-desc">Weather scientist Mouna falls in love with quirky and loving Yaazhan, but their relationship takes an unexpected turn when psychologist Dr. Malarvizhi arrives in town.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="r7.jpg" alt="">
+                            <span class="movie-list-item-title">Hridayam</span>
+                            <p class="movie-list-item-desc">A man in his early 30s reflects on his misspent youth and the rocky road that brought him to adulthood.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
